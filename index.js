@@ -9,7 +9,7 @@ const inquirer = require('inquirer')
 
 const arrtemplateData = []
 
-const promptEngineer = () => {
+const promptEngineer = (string) => {
   console.log(`
   ======================
   Enter Engineer's Details
@@ -20,22 +20,22 @@ const promptEngineer = () => {
     .prompt([
       {
         type: 'input',
-        name: 'engName',
+        name: 'name',
         message: 'Enter Engineer name : ',
       },
       {
         type: 'input',
-        name: 'engId',
+        name: 'id',
         message: 'Please enter Engineer Employee id: ',
       },
       {
         type: 'input',
-        name: 'engEmail',
+        name: 'email',
         message: 'Please enter Engineer email: ',
       },
       {
         type: 'input',
-        name: 'engGithub',
+        name: 'github',
         message: 'Please enter Engineer Github user-name: ',
       },
       {
@@ -46,6 +46,7 @@ const promptEngineer = () => {
       },
     ])
     .then((data) => {
+      data.role = 'Engineer'
       arrtemplateData.push(data)
       new Engineer(
         data.name,
@@ -73,22 +74,22 @@ const promptIntern = () => {
     .prompt([
       {
         type: 'input',
-        name: 'internName',
+        name: 'name',
         message: 'Enter Intern name : ',
       },
       {
         type: 'input',
-        name: 'internId',
+        name: 'id',
         message: 'Please enter Intern id',
       },
       {
         type: 'input',
-        name: 'internEmail',
+        name: 'email',
         message: 'Please enter Intern email',
       },
       {
         type: 'input',
-        name: 'internSchool',
+        name: 'school',
         message: 'Please enter Intern School',
       },
       {
@@ -99,7 +100,9 @@ const promptIntern = () => {
       },
     ])
     .then((data) => {
+      data.role = 'Intern'
       arrtemplateData.push(data)
+
       if (data.addRole.join('') === 'Engineer') {
         return promptEngineer()
       } else if (data.addRole.join('') === 'Intern') {
@@ -119,22 +122,22 @@ const promptManager = () => {
     .prompt([
       {
         type: 'input',
-        name: 'managerName',
+        name: 'name',
         message: 'Enter Manager name : ',
       },
       {
         type: 'input',
-        name: 'managerId',
+        name: 'id',
         message: 'Please enter Manager Employee id',
       },
       {
         type: 'input',
-        name: 'managerEmail',
+        name: 'email',
         message: 'Please enter Manager email',
       },
       {
         type: 'input',
-        name: 'managerOfficeNumber',
+        name: 'officeNumber',
         message: 'Please enter Manager Office Number',
       },
       {
@@ -145,8 +148,8 @@ const promptManager = () => {
       },
     ])
     .then((templateData) => {
+      templateData.role = 'Manager'
       arrtemplateData.push(templateData)
-
       if (templateData.addRole.join('') === 'Engineer') {
         return promptEngineer()
       } else if (templateData.addRole.join('') === 'Intern') {

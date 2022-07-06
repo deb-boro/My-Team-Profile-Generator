@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/deb-boro/My-Team-Profile-Generator#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
     "inquirer": "^8.2.4"
   },
   "devDependencies": {

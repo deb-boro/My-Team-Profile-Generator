@@ -1,0 +1,51 @@
+.header-container {
+  background-color: #ff6b6b;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+}
+
+.employee-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 100px;
+  list-style-type: none;
+}
+.img {
+  height: 10vw;
+  width: 10%;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  margin: 10px;
+  background-color: #f1f3f5;
+  box-shadow: 5px 5px #c7cbcf;
+}
+.list-group {
+  list-style-type: none;
+}
+.card-header {
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: #228be6;
+  padding: 10px;
+}
+.name {
+  padding: 5px;
+  color: white;
+}
+.Role {
+  padding: 5px;
+  color: #ced4da;
+}
+.list-group-item {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  padding: 10px 0px 10px 5px;
+  margin: 5px 35px 5px 0px;
+}
