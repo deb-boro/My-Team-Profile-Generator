@@ -21,4 +21,4 @@ https://github.com/deb-boro/My-Team-Profile-Generator
 
 ## Screenshot
 
-![Day Scheduler](https://github.com/deb-boro/day-scheduler/blob/main/assets/images/screenshot_webpage.png?raw=true)
+![MyTeamApp](https://github.com/deb-boro/My-Team-Profile-Generator/blob/main/src/Screen%20Shot%202022-07-06%20at%2010.26.29%20AM.png?raw=true)
