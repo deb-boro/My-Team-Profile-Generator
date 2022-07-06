@@ -31,7 +31,7 @@ const generateEmployeeInfo = (data) => {
         <ul class="list-group list-group-flush">
           <li class="list-group-item">ID : ${id}</li>
           <li class="list-group-item">email : <a href="mailto:${email}">${email}</a></li>
-          <li class="list-group-item">github: <a href="https://github.com/${github}">${github}</a></li>
+          <li class="list-group-item" >github: <a href="https://github.com/${github}" target="_blank">${github}</a></li>
         </ul>
       </div>
         `
