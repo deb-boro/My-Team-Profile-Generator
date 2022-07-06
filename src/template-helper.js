@@ -11,7 +11,7 @@ const generateEmployeeInfo = (data) => {
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">ID : ${id}</li>
-          <li class="list-group-item">email : <a href="mailto:${email}">${email}<a></li>
+          <li class="list-group-item">email : <a href="mailto:${email}">${email}</a></li>
           <li class="list-group-item">office-no.: ${officeNumber}</li>
         </ul>
       </div>
@@ -30,8 +30,8 @@ const generateEmployeeInfo = (data) => {
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">ID : ${id}</li>
-          <li class="list-group-item">email : <a href="mailto:${email}">${email}<a></li>
-          <li class="list-group-item">github: ${github}</li>
+          <li class="list-group-item">email : <a href="mailto:${email}">${email}</a></li>
+          <li class="list-group-item">github: <a href="https://github.com/${github}">${github}</a></li>
         </ul>
       </div>
         `
@@ -48,7 +48,7 @@ const generateEmployeeInfo = (data) => {
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">ID : ${id}</li>
-          <li class="list-group-item">email : <a href="mailto:${email}">${email}<a></li>
+          <li class="list-group-item">email : <a href="mailto:${email}">${email}</a></li>
           <li class="list-group-item">school: ${school}</li>
         </ul>
       </div>
