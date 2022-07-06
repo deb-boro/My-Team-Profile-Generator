@@ -9,7 +9,7 @@ test('create an Manager Object', () => {
     'Manager',
     '343-578-5897',
   )
-  expect(manager.name).toBe('Jerry')
+  expect(manager.empName).toBe('Jerry')
   expect(manager.id).toEqual('12313')
   expect(manager.email).toEqual('jerry@gmail.com')
   expect(manager.role).toBe('Manager')

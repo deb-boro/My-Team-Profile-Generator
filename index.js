@@ -48,13 +48,7 @@ const promptEngineer = (string) => {
     .then((data) => {
       data.role = 'Engineer'
       arrtemplateData.push(data)
-      new Engineer(
-        data.name,
-        data.id,
-        data.email,
-        'Engineer',
-        data.github,
-      ).getGithub()
+
       if (data.addRole.join('') === 'Engineer') {
         return promptEngineer()
       } else if (data.addRole.join('') === 'Intern') {

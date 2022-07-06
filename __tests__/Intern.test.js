@@ -9,7 +9,7 @@ test('create an Intern Object', () => {
     'Intern',
     'UNCC',
   )
-  expect(intern.name).toBe('Jerry')
+  expect(intern.empName).toBe('Jerry')
   expect(intern.id).toEqual('12313')
   expect(intern.email).toEqual('jerry@gmail.com')
   expect(intern.role).toBe('Intern')

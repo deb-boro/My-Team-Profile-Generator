@@ -9,7 +9,7 @@ test('create an Engineer Object', () => {
     'Engineer',
     'github@github.com',
   )
-  expect(engineer.name).toBe('Jerry')
+  expect(engineer.empName).toBe('Jerry')
   expect(engineer.id).toEqual('12313')
   expect(engineer.email).toEqual('jerry@gmail.com')
   expect(engineer.role).toBe('Engineer')
