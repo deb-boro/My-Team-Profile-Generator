@@ -6,6 +6,10 @@ The my team profile generator is a node js application with inquirer prompt to p
 
 [@debajitboro](https://www.github.com/deb-boro)
 
+## Walkthrough Video
+
+[![Video]](https://user-images.githubusercontent.com/100662344/176338087-8814c29f-decb-4ae4-b9e0-a2752f96eacd.mp4)
+
 ## Features
 
 Team profile generator is built using classes, jest for unit testing and utilizing node to built the application.
