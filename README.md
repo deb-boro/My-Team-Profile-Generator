@@ -8,7 +8,7 @@ The my team profile generator is a node js application with inquirer prompt to p
 
 ## Walkthrough Video
 
-[![Video]](https://user-images.githubusercontent.com/100662344/176338087-8814c29f-decb-4ae4-b9e0-a2752f96eacd.mp4)
+[![Video]](https://user-images.githubusercontent.com/100662344/179449437-5fd776c7-8607-4620-8142-1e6c19ee1b89.mp4)
 
 ## Features
 
